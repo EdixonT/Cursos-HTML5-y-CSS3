@@ -1,0 +1,63 @@
+body{
+    background: rgb(240, 240, 240);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 900px;
+    margin: auto;
+}
+.banner{
+    width: 900px;
+    height: 300px;
+    border-radius: 20px;
+}
+/*Aqui se estilizara lo que son las letras por color, solo se usara de ser necesario, de lo contrario, se especificara en cada bloque, cada tipo color, etc, de la letra.*/
+#titulo, .subtitulo, .articulo1, .finalPagina {
+    color: black;
+
+}
+/*Aqui se editara solo el titulo de la pagina*/
+#titulo{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+/*aqui se estilaran los enlaces, url, correo, etc*/    
+a{
+    text-decoration: lightseagreen;
+    color:blue;
+}
+/*Aqui se estilizara, todo lo referente al subtiulo principal*/
+.subtitulo {
+    font-size: 18;
+    font-style: italic;
+    
+}
+/*Aqui se estiliza, el contenido del arituculo1*/
+.articulobase{
+    background: white;
+    padding: 15px;
+    border: 3px solid silver ;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.texto_articulo1{
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+.imagen_articulo1{
+    margin-bottom: 15px;
+    border-radius: 20px;
+    
+    
+   
+}
+
+/*Aqui se estilizaran todas las listas del codigo.*/
+.listaContactos{
+    list-style-type: none;
+}
+
+.listaContactos li a {
+    color: blue;
+}
